@@ -25,9 +25,12 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+.parallax-container .section {
     width: 100%;
   }
+/*.container {
+  width: 100%;
+}*/
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -53,11 +56,11 @@ p {
 }
 
 .card {
-  display: inline-block;
-  max-width: 500px;
-  min-width: 250px;
-  padding: 0 20px;
-  margin: 15px;
+  display: inline;
+/*  max-width: 300px;*/
+  min-width: 200px;
+  padding: 0 10px;
+  margin: 10px;
 }
 
 footer.page-footer {
