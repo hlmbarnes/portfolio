@@ -8,7 +8,13 @@
 
 body{
   font-family: 'Playfair Display', serif;
-  color: #807F5C;;
+  color: #807F5C;
+
+}
+
+h1{
+  font-size: Ultra-Bold;
+  font-weight: 900px;
 }
 
 nav ul a,
@@ -40,6 +46,7 @@ p {
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
+  padding-top: 50px;
 }
 .parallax-container .section {
     width: 100%;
@@ -75,26 +82,29 @@ p {
 }
 .icon-block {
   padding: 0 15px;
+  text-align: center;
 }
 .icon-block .material-icons {
   font-size: inherit;
 }
-
 .card {
-  display: inline;
-/*  max-width: 300px;*/
-/*  min-width: 200px;*/
-  padding: 0 10px;
-/*  margin: 10px;*/
-  width: 230px;
-  height: 330px;
-  padding-bottom: 50px;
+padding: 20px;
+color:#807F5C;
+text-align: center;
+
 }
-/*.card .card-action .link{
+.cardrow{
+  height: 400px;
+}
+.card .card-action a.link{
   color: #807F5C;
-  padding-bottom: 15px;
 }
-*/
+
+.container .profpic{
+  padding-top: 0px;
+  padding-left: 90px;
+}
+
 
 .btn btn-large{
 background-color:#807F5C;

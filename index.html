@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Hannah Laurel Barnes' Portfolio</title>
+  <title>Hannah Laurel Barnes'Portfolio</title>
 
   <!-- CSS  -->
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
@@ -17,14 +17,16 @@
       <a id="logo-container"  class="brand-logo" href="index.html"><img src="hlmblogo.jpg"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="index.html">Home</a></li>
-         <li><a href="mywork.html">My Work</a></li>
+        <li><a href="mywork.html">My Work</a></li>
         <li><a class="modal-trigger" href="#modal2">About Me</a></li>
         <li><a class="modal-trigger" href="#modal1" data-target="modal1">Contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="index.html">Navbar Link</a></li>
-        
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mywork.html">My Work</a></li>
+        <li><a class="modal-trigger" href="#modal2">About Me</a></li>
+        <li><a class="modal-trigger" href="#modal1" data-target="modal1">Contact</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -34,7 +36,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center">Hannah Laurel Barnes' Portfolio</h1>
+        <h1 class="header center">Hannah Laurel Barnes</h1>
         <div class="row center">
           <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
         </div>
@@ -106,7 +108,8 @@
 <!-- WORK CARDS BEGIN -->
   <div class="container">
   <div class="section">
-    <div class="row">
+    <div class="row cardrow">
+
       <div class="card col s12 m4">
         <div class="card-image">
           <img src="Sudoku.jpeg">
@@ -116,7 +119,7 @@
         <p>A fully front end application using Javascript. </p>
       </div>
         <div class="card-action">
-        <a href="http://hlmbarnes.github.io/sudoku/">Link to Sudoku</a>
+        <a class="link" href="http://hlmbarnes.github.io/sudoku/">Link to Sudoku</a>
         </div>
       </div>
 
@@ -124,7 +127,7 @@
         <div class="card-image">
               <img src="hoppyhour.jpeg">
               <span class="card-title">Hoppy Hour</span>
-            </div>
+        </div>
             <div class="card-content">
               <p>This project was developed using NodeJs and is a fulls stack application incorporating Google's Google Places' API.</p>
             </div>
@@ -133,10 +136,10 @@
           </div>
       </div>
 
-          <div class="card col s12 m4">
+       <div class="card col s12 m4">
             <div class="card-image">
               <img src="codeprep.jpeg">
-              <span class="card-title">CodePrep</span>
+              <h1 class="card-title">CodePrep</h1>
             </div>
             <div class="card-content">
               <p>This is a full stack Ruby on Rails application built by myself and three other team members. </p>
@@ -146,11 +149,16 @@
             </div>
         </div>
 
+        </div>
+       </div>
+      </div>
+
+         
+
         <!-- <div class="section">
           <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">See More Work</a>
         </div>
         <br><br>
-
       </div> -->
 
   </div>
@@ -169,10 +177,7 @@
     </div>
     <div class="parallax"><img src="image3.jpeg"" alt="Unsplashed background img 1"></div>
   </div>
-
 <!-- About Me Section -->
-
-
   <div class="container">
     <div class="section">
       <div class="row">
@@ -180,18 +185,14 @@
           <h3><i class="mdi-content-send"></i></h3>
           <h4>About Me</h4>
           <p class="left-align light">I am a seasoned Social Media and Digital Marketing Manager turned full stack web developer who prides herself on creating customized digital impressions for clients. With two bachelors degrees from Occidental College in Diplomacy and World Affairs and Spanish Literature and over 4 years experience in digital marketing, I haveworked with a variety of clientele in non-profit, entertainment, fashion, and beauty. </p>
-
           <p class="left-align light">I recently graduated from General Assembly's Web Development Immersive course where I became a full stack developer in 12 weeks.   When I'm not coding or tweeting, you can find me at flea markets or checking out the latest Eater hotspots. </p>
         </div>
         <div class="col s4 center">
           <img class="profpic" src="profpic.jpg">
         </div>
       </div>
-
     </div>
   </div>
-
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -202,7 +203,6 @@
     </div>
     <div class="parallax"><img src="image3.jpeg" alt="Unsplashed background img 1"></div>
   </div>
-
   <footer class="page-footer white">
     <div class="container">
       <div class="row">
@@ -235,47 +235,11 @@
       Made by <a class="brown-text text-lighten-2" href="http://materializecss.com">Hannah Laurel Barnes</a>
       </div>
     </div>
-
-   <!-- MODAL ABOUT ME STRUCTURE -->
-  <div id="modal2" class="modal">
-    <div class="modal-content">
-      <h4>About Me</h4>
-      <div class="container">
-        <div class="row col s3"
-      <p class="left-align light">I am a seasoned Social Media and Digital Marketing Manager turned full stack web developer who prides herself on creating customized digital impressions for clients. With two bachelors degrees from Occidental College in Diplomacy and World Affairs and Spanish Literature and over 4 years experience in digital marketing, I haveworked with a variety of clientele in non-profit, entertainment, fashion, and beauty. </p>
-
-      <p class="left-align light">I recently graduated from General Assembly's Web Development Immersive course where I became a full stack developer in 12 weeks.   When I'm not coding or tweeting, you can find me at flea markets or checking out the latest Eater hotspots. </p>
-      </div>
-      </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div> 
-
-  <!-- MODAL CONTACT STRUCTURE -->
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Contact Me</h4>
-      <p>If you are interested in my work, feel free to check out my GitHub, LinkedIn, GA Profile, or reach me via email.</p>
-      <ul>
-        <li><a class="brown-text" href="https://github.com/hlmbarnes">Github</a></li>
-        <li><a class="brown-text" href="https://www.linkedin.com/in/hannahlaurelbarnes">Linkedin</a></li>
-        <li><a class="brown-text" href="http://profiles.generalassemb.ly/hannah-barnes">GA Profile</a></li>
-        <li>hlmbarnes@me.com</li>
-      </ul>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
+ 
   </footer>
-
-
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
   </body>
 </html>
