@@ -78,8 +78,9 @@ p {
 .profpic {
   padding-left: 20px;
   max-width: 350px;
-  padding-top: 80px;
 }
+
+
 .icon-block {
   padding: 0 15px;
   text-align: center;
@@ -101,7 +102,7 @@ text-align: center;
 }
 
 .container .profpic{
-  padding-top: 0px;
+  padding-top: 50px;
   padding-left: 90px;
 }
 
