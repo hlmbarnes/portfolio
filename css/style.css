@@ -24,6 +24,10 @@ p {
   line-height: 2rem;
 }
 
+#modal1 {
+  color: #807F5C;
+}
+
 .button-collapse {
   color: #807F5C;
 }
