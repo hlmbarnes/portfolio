@@ -6,9 +6,18 @@
  * Made By MaterializeCSS.com
  */
 
+body{
+  font-family: 'Playfair Display', serif;
+  color: #807F5C;;
+}
+
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #807F5C;
+}
+
+header{
+  padding-top: 30px;
 }
 
 p {
@@ -16,9 +25,12 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: #807F5C;
 }
 
+.material-icons{
+  color:#795548;
+}
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -48,8 +60,14 @@ p {
   }
 }
 
+.container .center .center{
+  color: #807F5C;
+}
+
 .profpic {
   padding-left: 20px;
+  max-width: 350px;
+  padding-top: 80px;
 }
 .icon-block {
   padding: 0 15px;
@@ -66,15 +84,21 @@ p {
 /*  margin: 10px;*/
   width: 230px;
   height: 330px;
+  padding-bottom: 50px;
 }
-.card .card-action .link{
-  color: black;
+/*.card .card-action .link{
+  color: #807F5C;
+  padding-bottom: 15px;
 }
+*/
 
+.btn btn-large{
+background-color:#807F5C;
+}
 footer.page-footer {
   margin: 0;
-  color: #90765A;
+  color: #807F5C;
 }
 page-footer{
-  color:#90765A;
+  color:#807F5C;
 }
