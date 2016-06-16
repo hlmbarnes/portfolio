@@ -30,6 +30,24 @@ p {
   line-height: 2rem;
 }
 
+#carosel .slider .parralax-container{
+  height: 550px;
+}
+/*div.slider.col.s12.m8.col8-offset.2 {
+  height: 550px;
+}*/
+/*.slider .slides li img {
+    height: 550px;*/
+
+
+/*.slider .slides li img {
+   height: 550px; */
+}
+
+img{
+background-color: #807F5C;
+}
+
 #modal1 {
   color: #807F5C;
 }
@@ -51,9 +69,6 @@ p {
 .parallax-container .section {
     width: 100%;
   }
-/*.container {
-  width: 100%;
-}*/
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
