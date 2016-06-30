@@ -1,4 +1,4 @@
-/* Custom Stylesheet */
+ Custom Stylesheet */
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -54,6 +54,13 @@ img{
 background-color: #807F5C;
 }
 
+p.right-align.light{
+  padding-right: 50px;
+  min-width: 350px;
+  max-width: 500px;
+  text-align: center;
+
+}
 #modal1 {
   color: #807F5C;
 }
@@ -68,7 +75,7 @@ background-color: #807F5C;
 .parallax-container {
   min-height: 450px;
   line-height: 0;
-  height: auto;
+/*  height: auto;*/
   color: rgba(255,255,255,.9);
   padding-top: 50px;
 }
@@ -97,16 +104,23 @@ background-color: #807F5C;
   color: #807F5C;
 }
 
-.profpic {
-  padding-left: 20px;
-  max-width: 350px;
-}
+/*.profpic {*/
+  /*padding-left: 20px;*/
+/*  max-width: 400px;
+  min-width: 350px;*/
+/*}*/
 
+img.profpic{
+  min-width: 300px;
+  max-width: 500px;
+  padding-right: 50px;
+}
 
 .icon-block {
   padding: 0 15px;
   text-align: center;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -124,8 +138,9 @@ text-align: center;
 }
 
 .container .profpic{
-  padding-top: 50px;
-  padding-left: 90px;
+  padding-top: 30px;
+  /*padding-left: 20px;*/
+  min-width: 350px;
 }
 
 .li h3{
@@ -157,4 +172,4 @@ page-footer{
 
 /*#slides{
   min-height: 700px;
-}*/
+}
