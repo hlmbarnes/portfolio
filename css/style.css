@@ -37,8 +37,18 @@ p {
 
 div.slider.parallax-container{
   max-height: 600px;
-
+  opacity: 30px;
 }
+
+.slider .slides li .caption{
+  /*text-shadow: 30px;*/
+  color: #807F5C;*/
+}
+
+.btn, .btn-large{
+  background-color: #807F5C;
+}
+
 .slider .slides li{
   min-height: 500px;
 /*  max-width: */
